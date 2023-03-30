@@ -1,17 +1,17 @@
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-import Head from "next/head";
+import Navbar from './Navbar'
+import Footer from './Footer'
+import Head from 'next/head'
 
-export default function Layut({children}) {
+export default function Layout({ children }) {
   return (
     <>
-    <head>
-      <link rel="short icon" href="/imgens/favicon.ico"/>
-      <title>PokeNext</title>
-    </head>
-    <Navbar/>
-    <main>{children}</main>
-    <Footer/>
+      <Head>
+        <link rel="shortcut icon" href="/images/favicon.ico" />
+        <title>PokeNext</title>
+      </Head>
+      <Navbar />
+      <main className="main-container">{children}</main>
+      <Footer />
     </>
   )
 }

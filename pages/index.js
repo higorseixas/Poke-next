@@ -1,9 +1,9 @@
 import styles from '@/styles/Home.module.css'
 
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <h1>PekeoNext</h1>
+    <h1>PokeNext</h1>
   )
 }
