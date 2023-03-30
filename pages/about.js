@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <div>
+    <div className={styles.about}>
       <h1>Sobre o projeto</h1>
       <p>Lorem, </p>
       <Image 
