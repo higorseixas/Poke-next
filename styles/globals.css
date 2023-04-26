@@ -7,4 +7,9 @@
 
 .main-continer {
   min-width: 70vh;
+  width: 100%;
+}
+
+html, body {
+  height: 100%;
 }

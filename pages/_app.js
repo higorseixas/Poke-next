@@ -1,5 +1,5 @@
 import '@/styles/globals.css'
-import Layout from "pages/components/Layout.js";
+import Layout from "../components/Layout";
 
 export default function App({ Component, pageProps }) {
   return (
@@ -8,3 +8,4 @@ export default function App({ Component, pageProps }) {
     </Layout>
   )
 }
+1
