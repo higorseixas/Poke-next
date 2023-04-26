@@ -17,11 +17,6 @@ export default function Card({pokemon}) {
       <Link className={styles.btn} href={`/pokemon/${pokemon.id}`}>
         Detalhes
       </Link>
-      {/* <p className={styles.id}>#{pokemon.id}</p>
-      <h3 className={styles.title}>{pokemon.name}</h3>
-      <Link href={`/pokemon/${pokemon.id}`}>
-        <a className={styles.btn}>Detalhes</a>
-      </Link> */}
     </div>
   )
 }
